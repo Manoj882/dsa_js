@@ -5,7 +5,7 @@ Question :
 
 // Given array:
 
-const nums = [1, 2, 3, 2, 1, 3];
+const nums = [1, 2, 3, 2, 1, 4];
 
 const findMaxSumSubArray = function (nums) {
   let left = 0,
@@ -25,3 +25,5 @@ const findMaxSumSubArray = function (nums) {
 
 const output = findMaxSumSubArray(nums);
 console.log(output);
+
+// Ouput: 5
